@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/Users/HarkiratMac/NetBeansProjects/pizza/web/img/logo.png</file>
+            <file>file:/Users/HarkiratMac/NetBeansProjects/pizza/web/views/pizza/browse.jsp</file>
+            <file>file:/Users/HarkiratMac/NetBeansProjects/pizza/src/java/model/Item.java</file>
+            <file>file:/Users/HarkiratMac/NetBeansProjects/pizza/src/java/controller/BasketController.java</file>
+            <file>file:/Users/HarkiratMac/NetBeansProjects/pizza/src/java/controller/LogoutController.java</file>
+            <file>file:/Users/HarkiratMac/NetBeansProjects/pizza/src/java/controller/CreateCustomPizza.java</file>
+            <file>file:/Users/HarkiratMac/NetBeansProjects/pizza/web/views/register/create.jsp</file>
+            <file>file:/Users/HarkiratMac/NetBeansProjects/pizza/src/conf/MANIFEST.MF</file>
+            <file>file:/Users/HarkiratMac/NetBeansProjects/pizza/src/java/model/FlashMessage.java</file>
+            <file>file:/Users/HarkiratMac/NetBeansProjects/pizza/web/views/login/login.jsp</file>
+            <file>file:/Users/HarkiratMac/NetBeansProjects/pizza/web/META-INF/context.xml</file>
+            <file>file:/Users/HarkiratMac/NetBeansProjects/pizza/src/java/model/User.java</file>
+            <file>file:/Users/HarkiratMac/NetBeansProjects/pizza/src/java/model/SendMail.java</file>
+            <file>file:/Users/HarkiratMac/NetBeansProjects/pizza/web/WEB-INF/web.xml</file>
+            <file>file:/Users/HarkiratMac/NetBeansProjects/pizza/src/java/controller/ValidatePinController.java</file>
+            <file>file:/Users/HarkiratMac/NetBeansProjects/pizza/web/js/custom-pizza.js</file>
+            <file>file:/Users/HarkiratMac/NetBeansProjects/pizza/web/index.jsp</file>
+            <file>file:/Users/HarkiratMac/NetBeansProjects/pizza/src/java/controller/PizzaController.java</file>
+            <file>file:/Users/HarkiratMac/NetBeansProjects/pizza/web/views/errors/404.jsp</file>
+            <file>file:/Users/HarkiratMac/NetBeansProjects/pizza/web/views/pizza/addpizza.jsp</file>
+            <file>file:/Users/HarkiratMac/NetBeansProjects/pizza/web/css/.keep</file>
+            <file>file:/Users/HarkiratMac/NetBeansProjects/pizza/src/java/controller/BrowseController.java</file>
+            <file>file:/Users/HarkiratMac/NetBeansProjects/pizza/web/css/style.css</file>
+            <file>file:/Users/HarkiratMac/NetBeansProjects/pizza/src/java/model/Statements.java</file>
+            <file>file:/Users/HarkiratMac/NetBeansProjects/pizza/src/java/controller/CreateUserController.java</file>
+            <file>file:/Users/HarkiratMac/NetBeansProjects/pizza/web/xml/pizza-example.xml</file>
+            <file>file:/Users/HarkiratMac/NetBeansProjects/pizza/src/java/model/Authenticator.java</file>
+            <file>file:/Users/HarkiratMac/NetBeansProjects/pizza/src/java/model/SessionModel.java</file>
+            <file>file:/Users/HarkiratMac/NetBeansProjects/pizza/web/views/checkout/checkout.jsp</file>
+            <file>file:/Users/HarkiratMac/NetBeansProjects/pizza/web/META-INF/MANIFEST.MF</file>
+            <file>file:/Users/HarkiratMac/NetBeansProjects/pizza/web/xml/pizza-scheme.xsd</file>
+            <file>file:/Users/HarkiratMac/NetBeansProjects/pizza/web/js/user-validation.js</file>
+            <file>file:/Users/HarkiratMac/NetBeansProjects/pizza/src/java/model/DBConnect.java</file>
+            <file>file:/Users/HarkiratMac/NetBeansProjects/pizza/web/views/checkout/receipt.jsp</file>
+            <file>file:/Users/HarkiratMac/NetBeansProjects/pizza/src/java/controller/LoginController.java</file>
+            <file>file:/Users/HarkiratMac/NetBeansProjects/pizza/web/WEB-INF/tags/wrap.tag</file>
+            <file>file:/Users/HarkiratMac/NetBeansProjects/pizza/src/java/model/Basket.java</file>
+            <file>file:/Users/HarkiratMac/NetBeansProjects/pizza/web/img/Background_pizza.jpg</file>
+            <file>file:/Users/HarkiratMac/NetBeansProjects/pizza/web/js/custom-pizza-validation.js</file>
+            <file>file:/Users/HarkiratMac/NetBeansProjects/pizza/src/java/controller/ReceiptController.java</file>
+            <file>file:/Users/HarkiratMac/NetBeansProjects/pizza/src/java/model/Pizza.java</file>
+            <file>file:/Users/HarkiratMac/NetBeansProjects/pizza/web/views/basket/basket.jsp</file>
+            <file>file:/Users/HarkiratMac/NetBeansProjects/pizza/src/java/model/PriceComparator.java</file>
+            <file>file:/Users/HarkiratMac/NetBeansProjects/pizza/web/views/register/validate.jsp</file>
+            <file>file:/Users/HarkiratMac/NetBeansProjects/pizza/src/java/controller/ValidateEmailController.java</file>
+            <file>file:/Users/HarkiratMac/NetBeansProjects/pizza/web/js/flickr-images.js</file>
+            <file>file:/Users/HarkiratMac/NetBeansProjects/pizza/web/views/nav.jsp</file>
+            <file>file:/Users/HarkiratMac/NetBeansProjects/pizza/web/views/pizza/custom-pizza.jsp</file>
+            <file>file:/Users/HarkiratMac/NetBeansProjects/pizza/src/java/controller/CheckoutController.java</file>
+        </group>
+    </open-files>
+</project-private>

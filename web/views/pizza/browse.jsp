@@ -1,0 +1,81 @@
+<%@ taglib prefix="browse" tagdir="/WEB-INF/tags" %> 
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+
+<browse:wrap title="CSUEB Pizzas">
+    
+<h1>Browse Pizza's</h1>
+<p>Please choose from the best pizza's below, or <a href="custompizza">create your own</a></p>
+
+<c:if test="${error != null}">
+	<div class="alert alert-warning">
+		<span class="glyphicon glyphicon-exclamation-sign"></span>
+		${error}
+	</div>
+</c:if>
+<c:if test="${msg != null}">
+	<div class="alert alert-success">
+		<span class="glyphicon glyphicon-exclamation-sign"></span>
+		${msg}
+	</div>
+</c:if>
+<c:if test="${totalPages gt 0}">
+	<form class="form-inline" method="GET" action="browse">
+		<select class="form-control" name="sortBy">
+			<option selected="selected" disabled="disabled">Sort By</option>
+			<option value="price">Price</option>
+		</select>
+		<div class="form-group">
+			<input class="form-control" placeholder="Min price" value="${param.minPrice}" name="minPrice">
+		</div>
+		<div class="form-group">
+			<input class="form-control" placeholder="Max price" value="${param.maxPrice}" name="maxPrice">
+		</div>
+
+		<input class="btn btn-default" type="submit" value="Submit">
+		
+	</form>
+	<table class="table table-hover">
+		<thead>
+			<tr>
+				<th>Name</th>
+				<th>Price</th>
+				<th>Description</th>
+				<th></th>
+			</tr>
+		</thead>
+		<tbody>
+			<c:forEach var="pizza" items="${pizzas}" varStatus="pizzaLoop">
+			<tr>
+				<td><a id="pizzaImg${pizzaLoop.index}" href="" title="" style="text-decoration:none; color:black; cursor:default">${pizza.name}</a></td>
+				<td>${pizza.price}</td>
+				<td>${pizza.description}</td>
+				<td><a href="basket?add=${pizza.id}"><span class="glyphicon glyphicon-plus-sign"></span></a></td>
+	
+			</tr>
+			</c:forEach>
+		</tbody>
+	</table>
+	
+	<!-- PAGINATION BEGIN -->
+	<ul class="pagination">
+	<c:if test="${page gt 1}">
+		<li><a href="browse?page=${page - 1}&sortBy=${sortBy}&minPrice=${param.minPrice}&maxPrice=${param.maxPrice}"><span class="glyphicon glyphicon-menu-left"></span> Previous</a></li>
+	</c:if>
+	
+	<c:forEach begin="1" end="${totalPages}" var="i">
+		<c:choose>
+			<c:when test="${page eq i}">
+				<li class="active"><a>${i}</a></li>
+			</c:when>
+			<c:otherwise>
+				<li><a href="browse?page=${i}&sortBy=${sortBy}&minPrice=${param.minPrice}&maxPrice=${param.maxPrice}">${i}</a></li>
+			</c:otherwise>
+		</c:choose>
+	</c:forEach>
+	
+	<c:if test="${page lt totalPages}">
+		<li><a href="browse?page=${page + 1}&sortBy=${sortBy}&minPrice=${param.minPrice}&maxPrice=${param.maxPrice}">Next <span class="glyphicon glyphicon-menu-right"></span></a></li>
+	</c:if>
+	</ul>
+</c:if>
+</browse:wrap>

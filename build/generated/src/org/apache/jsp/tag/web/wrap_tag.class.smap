@@ -1,0 +1,18 @@
+SMAP
+wrap_tag.java
+JSP
+*S JSP
+*F
++ 0 wrap.tag
+WEB-INF/tags/wrap.tag
+*L
+1,10:69
+11:79,3
+12:82
+13,2:83,3
+15,4:89
+18:129,7
+18,3:95
+21:98,6
+22,6:104
+*E

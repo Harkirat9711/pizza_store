@@ -1,0 +1,47 @@
+<%@ taglib prefix="receipt" tagdir="/WEB-INF/tags" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+
+<receipt:wrap title="CSUEB Pizza- Receipt">
+<h1>Thank you for eating pizza from CSUEB Pizza's <span class="glyphicon glyphicon-ok" aria-hidden="true"></span> </h1>
+
+<div style="padding-top:10px">Your order:</div>
+
+<table class="table">
+	<tr>
+		<th>Name</th>
+		<th>Price</th>
+		<th>Description</th>
+		<th>Quantity</th>
+	</tr>
+	<c:forEach var="item" items="${basket.list}" varStatus="i">
+	<tr>
+		<td>${item.value.name}</td>
+		<td>${item.value.price}</td>
+		<td>${item.value.description}</td>
+		<td>${item.value.quantity}</td>
+	</tr>
+	</c:forEach>
+</table>
+
+<p>Total number of Pizza's: <b>${basket.size}</b></p>
+<p>Total price: <b>${basket.totalPrice}</b></p>
+
+
+<h3 style="padding-top:10px">Delivered to:</h3>
+<table class="table">
+	<tr>
+		<th>Name</th>
+		<th>Address</th>
+		<th>Zip Code</th>
+                <th>Phone Number</th>
+	</tr>
+	<tr>
+		<td>${user.name}</td>
+		<td>${user.address}</td>
+		<td>${user.zipcode}</td>
+                <td>${user.phoneNumber}</td>
+	</tr>
+</table>
+
+
+</receipt:wrap>

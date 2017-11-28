@@ -1,0 +1,22 @@
+body {
+	padding-top: 50px;
+}
+
+.glyphicon.glyphicon-remove-circle{
+	font-size: 20px;
+}
+
+.glyphicon.glyphicon-plus-sign{
+	font-size: 20px;
+}
+
+.logo{
+	width: 75%;
+}         
+.pizTooltip{
+	max-width: 250px;
+}
+
+.ui-tooltip-content{
+	padding-left:30px;
+}
