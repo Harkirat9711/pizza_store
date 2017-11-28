@@ -14,11 +14,16 @@ Make sure Mysql is installed.
 
 From mysql workbench or command-line (if you are on Mac) run the web/initdb.sql. This will initialize the db schema and create tables for pizzas and users and add initial data in it. On Mac, do it as:
 
-cd web/
+cd web/ 
+
 mysql -u root
+
 mysql > /Source initdb.sql 
+
 mysql > exit
+
 Install netbeans(if havent already)
+
 
 Create a Project in Netbeans
 
