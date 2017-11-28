@@ -34,7 +34,10 @@ Create a Project in Netbeans
 Copy all files to that Netbeans project workspace. i.e. the web folder to your skeleton project web folder, the src folder to your project src folder.
 
 Update the mysql server credentials. You would update it in: src/java/dbconnector.java
-JDBC Link: jdbc:mysql://localhost:3306/la_pizzeria
+
+Create new DB connection from netbeans with mysql in port 3306.
+
+JDBC reference Link: jdbc:mysql://localhost:3306/la_pizzeria
 
 Add JDBC mysql connector library to your netbeans project (use port 3306).
 
