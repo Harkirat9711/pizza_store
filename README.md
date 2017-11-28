@@ -14,6 +14,10 @@ Make sure Mysql is installed.
 
 From mysql workbench or command-line (if you are on Mac) run the web/initdb.sql. This will initialize the db schema and create tables for pizzas and users and add initial data in it. On Mac, do it as:
 
+HARKIRATs-MacBook-Air:project/pizza HarkiratMac : $ mysql < ~/Desktop/initdb.sql 
+
+OR 
+
 cd web/ 
 
 mysql -u root
