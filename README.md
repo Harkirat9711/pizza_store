@@ -36,8 +36,6 @@ Add JDBC mysql connector library to your netbeans project (use port 3306).
 
 To login visit : http://localhost:8080/pizza
 
-Try logging in with init user accounts which were already created by initdb.sql in Step 2. Some users to log in with username/password are: root/root
-
 Testing Login with test accounts
 
 Some accounts are pre-setup by initdb.sql and their credentials are:
