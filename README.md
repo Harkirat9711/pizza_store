@@ -1,10 +1,7 @@
 
 
-<<<<<<< HEAD
+
 # Introduction:
-=======
-#Introduction:
->>>>>>> 25c4081ca5180b226167a62d8de52c1867a4f0bc
 
 # Pizza Store By Harkirat Singh:
 
